@@ -1,4 +1,94 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+.topHeader {
+  position: absolute;
+  width: 1440px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+  background: #3a3838;
+  display: flex;
+}
+.topHeader .imageSide {
+  width: 40%;
+  height: 100%;
+}
+
+.topHeader .navSide {
+  width: 58%;
+  height: 100%;
+}
+.topHeader .imageSide img {
+  position: absolute;
+  left: 3.75%;
+  right: 86.46%;
+  top: 30%;
+  bottom: 17.86%;
+}
+.topHeader .navSide nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.topHeader .navSide nav ul li {
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 20px;
+  right: 68.26%;
+  bottom: 37.5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+  padding: 9px;
+}
+
+.topHeader .navSide nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.searchBar {
+  display: flex;
+  position: absolute;
+  left: 74.72%;
+  right: 10%;
+  margin-bottom: 12px;
+  bottom: 30.36%;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.searchBar input {
+  outline: none;
+  border: 0;
+  background: transparent;
+  font-size: 15px;
+  color: black;
+}
+.searchBar button img {
+  width: 20px;
+}
+.searchBar button {
+  border: 0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+.profileIcon {
+  position: absolute;
+  left: 92.99%;
+  right: 3.82%;
+  top: 29.46%;
+  bottom: 29.46%;
+}
+main .wrapper {
+  width: 1440px;
+  height: 483px;
+  background-image: url(../images/HomeBookShelfImage.png);
+  background-size: cover;
+  background-position: center;
 }
