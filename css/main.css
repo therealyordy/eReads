@@ -17,7 +17,7 @@
 }
 
 .topHeader .navSide {
-  width: 58%;
+  width: 80%;
   height: 100%;
 }
 .topHeader .imageSide img {
@@ -72,11 +72,12 @@
   width: 20px;
 }
 .searchBar button {
-  border: 0;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  cursor: pointer;
+  left: 74.72%;
+  right: 10%;
+  top: 37.5%;
+  bottom: 30.36%;
+  border: none;
+  background-color: transparent;
 }
 .profileIcon {
   position: absolute;
@@ -91,4 +92,65 @@ main .wrapper {
   background-image: url(../images/HomeBookShelfImage.png);
   background-size: cover;
   background-position: center;
+}
+main .section_2 {
+  width: 1440px;
+  height: 429px;
+  background: #d9d9d9;
+}
+main .section_2 .title {
+  position: absolute;
+  width: 423px;
+  height: 64px;
+  left: 231px;
+  top: 500px;
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+  color: black;
+  text-align: center;
+}
+main .section_2 .content p {
+  position: absolute;
+  width: 695px;
+  height: 104px;
+  left: 95px;
+  top: 630px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+main .section_2 .content button {
+  position: absolute;
+  width: 213px;
+  height: 53px;
+  left: 336px;
+  top: 775px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+main .rightSide {
+  position: absolute;
+  width: 349px;
+  height: 330px;
+  left: 873px;
+  top: 500px;
+  background-image: url(../images/HomeIpadImage.png);
+}
+.footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  text-align: center;
 }
