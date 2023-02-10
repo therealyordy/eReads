@@ -85,6 +85,7 @@
   right: 3.82%;
   top: 29.46%;
   bottom: 29.46%;
+  cursor: pointer;
 }
 main .wrapper {
   width: 1440px;
