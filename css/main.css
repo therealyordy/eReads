@@ -87,71 +87,116 @@
   bottom: 29.46%;
   cursor: pointer;
 }
-main .wrapper {
+main .wrap {
   width: 1440px;
-  height: 483px;
-  background-image: url(../images/HomeBookShelfImage.png);
-  background-size: cover;
-  background-position: center;
-}
-main .section_2 {
-  width: 1440px;
-  height: 429px;
+  height: 912px;
+  top: px;
   background: #d9d9d9;
 }
-main .section_2 .title {
+main .aboutUs {
   position: absolute;
-  width: 423px;
-  height: 64px;
-  left: 231px;
-  top: 500px;
+  width: 189px;
+  height: 72px;
+  left: 408px;
+  top: 180px;
   font-family: "Lemonada";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 64px;
-  color: black;
-  text-align: center;
+  font-size: 36px;
+  line-height: 72px;
 }
-main .section_2 .content p {
+main .content_left {
   position: absolute;
-  width: 695px;
-  height: 104px;
-  left: 95px;
-  top: 630px;
-  font-family: "Inter";
+  width: 719px;
+  height: 420px;
+  left: 148px;
+  top: 240px;
+  font-family: "Lemonada";
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
+  border: 1px solid #ffffff;
 }
-main .section_2 .content button {
+.content_right {
   position: absolute;
-  width: 213px;
-  height: 53px;
-  left: 336px;
-  top: 775px;
-  background-color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  cursor: pointer;
+  width: 541px;
+  height: 430px;
+  left: 897px;
+  top: 90px;
 }
-main .rightSide {
-  position: absolute;
-  width: 349px;
-  height: 330px;
-  left: 873px;
-  top: 500px;
-  background-image: url(../images/HomeIpadImage.png);
-}
+
 .footer {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  background-color: #d9d9d9;
+  background-color: white;
   cursor: pointer;
   text-align: center;
+}
+
+html {
+  font-size: 19px;
+}
+main .right_section {
+  position: absolute;
+  width: 720px;
+  height: 830px;
+  left: 720px;
+  top: 112px;
+}
+.left_section form button {
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  width: 267px;
+  height: 56px;
+  left: 226px;
+  top: 876px;
+  border: none;
+  outline: none;
+}
+
+main .left_section {
+  padding-top: 144px;
+  padding-bottom: 6.75rem;
+}
+main .left_section h1 {
+  font-size: 45px;
+}
+main .left_section {
+  max-width: 432px;
+}
+main .left_section form {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main .left_section .form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  width: 432px;
+  height: 56px;
+  left: 144px;
+  top: 271px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.terms a {
+  color: #428eff;
+}
+.sign a {
+  color: #428eff;
+}
+
+main .left_section .form_control p {
+  padding: 57px;
 }
