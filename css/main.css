@@ -179,24 +179,24 @@ main .left_section form {
 main .left_section .form_control {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  position: absolute;
+  border: none;
+}
+
+main .left_section form input {
+  box-sizing: border-box;
   width: 432px;
   height: 56px;
   left: 144px;
   top: 271px;
-
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 10px;
+  align-items: center;
 }
 .terms a {
   color: #428eff;
 }
 .sign a {
   color: #428eff;
-}
-
-main .left_section .form_control p {
-  padding: 57px;
+  align-items: center;
 }
