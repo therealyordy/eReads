@@ -198,11 +198,96 @@ main .left_section form input {
 .sign a {
   color: #428eff;
 }
-main .wrapper_top {
+main .top_section .micImage {
   position: absolute;
   width: 1440px;
   height: 450px;
   left: 0px;
   top: 112px;
-  background: url(../images/EbookMicImage.png);
+}
+
+.top_section p {
+  position: absolute;
+  width: 613px;
+  height: 181px;
+  left: 107px;
+  top: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+  color: #ffffff;
+}
+main .iconsImage {
+  position: absolute;
+  width: 1440px;
+  height: 215px;
+  left: 0px;
+  top: 562px;
+  background: #020202;
+  display: flex;
+  color: #428eff;
+  align-items: center;
+  justify-content: space-between;
+}
+main .iconsImage .card {
+  padding: 90px;
+  flex-direction: column;
+}
+main .bottom_section .left_section {
+  box-sizing: border-box;
+  position: absolute;
+  width: 349px;
+  height: 1646px;
+  left: 0px;
+  top: 777px;
+  background: #d9d9d9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+main .bottom_section .left_section h2 {
+  left: 5.14%;
+  right: 80.9%;
+  padding-bottom: 37px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #036de9;
+}
+main .bottom_section .left_section h4 {
+  left: 5.97%;
+  right: 81.81%;
+  top: 33.79%;
+  bottom: 57.49%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+main .iconsBooks .books img {
+  position: absolute;
+  width: 199px;
+  height: 250px;
+  left: -200px;
+  padding-top: 843px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+main .iconsBooks .books h2 {
+  position: absolute;
+  left: 49.44%;
+  right: 32.57%;
+  top: 32.76%;
+  bottom: 66.13%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #036DE9;
 }
