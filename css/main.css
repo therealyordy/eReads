@@ -174,8 +174,7 @@ main .left_section form {
   margin-top: 19px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  align-items: center;
+  gap: 30px;
 }
 main .left_section .form_control {
   display: flex;
@@ -198,5 +197,4 @@ main .left_section form input {
 }
 .sign a {
   color: #428eff;
-  align-items: center;
 }
