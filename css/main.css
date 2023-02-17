@@ -198,3 +198,11 @@ main .left_section form input {
 .sign a {
   color: #428eff;
 }
+main .wrapper_top {
+  position: absolute;
+  width: 1440px;
+  height: 450px;
+  left: 0px;
+  top: 112px;
+  background: url(../images/EbookMicImage.png);
+}
