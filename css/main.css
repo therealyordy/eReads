@@ -175,6 +175,7 @@ main .left_section form {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  align-items: center;
 }
 main .left_section .form_control {
   display: flex;
@@ -191,7 +192,6 @@ main .left_section form input {
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 10px;
-  align-items: center;
 }
 .terms a {
   color: #428eff;
