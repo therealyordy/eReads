@@ -174,18 +174,20 @@ main .left_section form {
   margin-top: 19px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 }
 main .left_section .form_control {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  position: absolute;
+  border: none;
+}
+
+main .left_section form input {
+  box-sizing: border-box;
   width: 432px;
   height: 56px;
   left: 144px;
   top: 271px;
-
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 10px;
@@ -196,7 +198,11 @@ main .left_section .form_control {
 .sign a {
   color: #428eff;
 }
-
-main .left_section .form_control p {
-  padding: 57px;
+main .wrapper_top {
+  position: absolute;
+  width: 1440px;
+  height: 450px;
+  left: 0px;
+  top: 112px;
+  background: url(../images/EbookMicImage.png);
 }
